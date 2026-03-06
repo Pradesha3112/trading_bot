@@ -29,19 +29,19 @@ BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_api_secret
 ```
 
-##Usage Examples
+Usage Examples
 The bot is controlled via cli.py. Use the following commands to test the logic:
 
-#MARKET Order
+MARKET Order
 ```Bash
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 ```
-#LIMIT Order
+LIMIT Order
 ```Bash
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 75000
 ```
 
-##🏗️ Project Architecture
+🏗️ Project Architecture
 The application is organized into specific modules for maintainability:
 
 cli.py: Entry point handling user arguments and terminal output.
